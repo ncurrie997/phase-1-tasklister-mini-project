@@ -7,11 +7,13 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
+  background: linear-gradient(rgb(247, 2, 43), rgb(28, 36, 156));
 }
 
 button {
-  font-size: 7px;
+  font-size: 10px;
+  display: box;
+  margin: auto
 }
 
 #main-content {
@@ -29,9 +31,24 @@ button {
 
 #list {
   margin: 10px;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  border: 3px solid #333;
+  background: rgba(0, 0, 0, 0.75);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
+  color:rgb(255, 250, 255);
+  width: 75%
 }
+
+#highPriorityList {
+  margin: 10px;
+  border: 3px solid #333;
+  background: rgba(247, 6, 6, 0.973);
+  padding: 15px 20px 18px 18px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px #333;
+  color:rgb(255, 250, 255);
+  width: 75%
+}
+
+
